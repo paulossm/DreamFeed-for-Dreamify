@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scape=1, width=device-width">
+        <title>Dreamify - Feed</title>
+        
+        <!-- BOOTSTRAP 3.2.2 CSS-->
+        <link rel="stylesheet" type="text/css" href="source/bootstrap/css/bootstrap.min.css" >
+        
+        <link rel="stylesheet" type="text/css" href="source/css/dreamify.css">
+        <link rel="stylesheet" type="text/css" href="fonts-icons/Icon_Font___SVG/eightyshades/WebFont/style.css">
+    </head>
+    
+    <body class="row">
+        <header class="col-md-12 col-xs-12">
+            <nav class="navbar navbar-default navbar-static-top">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <a id="dreamifyLogo" href="#"><img src="source/media/images/dreamify_brand.png" alt="Dreamify Logo"></a>
+                    </div>
+                    
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul id="mainNavigation" class="nav navbar-nav">
+                            <li class="active"><a href="#"><span class="icon-grid"></span> feed <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#"><span class="icon-chat"></span> chats</a></li>
+                          </ul>
+                              
+                          <ul class="nav navbar-nav navbar-right" style="border-left: solid 1px #BBB;">
+                            <li><a id="dreamNotifications" href="#"><span class="icon-globe"></span></a></li>
+                            <li><a href="#"><span class="icon-feather"></span></a></li>
+                            <li>
+                              <a id="dreamUser" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">William <img src="source/media/images/profile1.jpg" style="width: 24px; margin-left: 6px;"> <span class="caret"></span></a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+            </nav>
+        </header>
+        
+        <section id="search" class="col-md-9 col-xs-12">
+            <form action="#" role="search">
+                <div class="form-group">
+                    <div class="col-md-2 col-xs-3 text-left">
+                        <button class="filterSearch" type="button">
+                        Filters
+                        <span class="caret"></span>
+                    </button>
+                    </div>
+                    <div class="col-md-9 col-xs-8">
+                        <input class="dreamifySearch" type="text" placeholder="I dream on...">
+                    </div>
+                    
+                    <div class="col-md-1 col-xs-1">
+                        <button type="submit"><span class="icon-search"></span></button>
+                    </div>
+                    
+                </div>
+                
+                <div class="form-group">
+                    <ul class="displayFilters col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+                        <li class="itemFilter" style="">
+                            <a href="#">
+                                <span class="glyphicon glyphicon-plane"></span>
+                                travel
+                            </a>
+                        </li>
+                        
+                        <li class="itemFilter">
+                            <a href="#">
+                            <span class="glyphicon glyphicon-heart"></span>
+                            health
+                            </a>
+                        </li>
+                        
+                        <li class="itemFilter">
+                            <a href="#">
+                            <span class="glyphicon glyphicon-music"></span>
+                            art
+                            </a>
+                        </li>
+                        
+                        <li class="itemFilter">
+                            <a href="#">
+                            <span class="glyphicon glyphicon-briefcase"></span>
+                            carreer
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </section>
+        
+        <section id="newsFeed" class="col-md-9 col-xs-12">
+            <div class="dreamCard col-md-4 col-xs-12 col-sm-6">
+            <article class="dream">
+                <figure class="dreamPhoto"  >
+                    <img src="source/media/images/hiking.jpg" alt="Go Hiking" style="width: 100%;">
+                    <figcaption class="dreamActivity">
+                        <h1 class="dreamTitle">Hiking in the Selkirks</h1>                        
+                        
+                        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-heart"></span> 28
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-comments"></span> 103
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-task"></span> 87
+                            </button>
+                          </div>
+                            <div class="btn-group text-right" role="group">
+                                <button type="button" class="text-right">
+                                    <span class="icon-out"></span>
+                                </button>
+                              </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+            </div>
+            
+            <div class="dreamCard col-md-4 col-xs-12 col-sm-6">
+            <article class="dream"  >
+                <figure class="dreamPhoto"  >
+                    <img src="source/media/images/piano.jpg" alt="Go Hiking" style="width: 100%;">
+                    <figcaption class="dreamActivity">
+                        <h1 class="dreamTitle">Learn to Play the Piano</h1>                        
+                        
+                        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-heart"></span> 450
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-comments"></span> 733
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-task"></span> 600
+                            </button>
+                          </div>
+                            <div class="btn-group text-right" role="group">
+                                <button type="button" class="text-right">
+                                    <span class="icon-out"></span>
+                                </button>
+                              </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+            </div>
+            
+            
+            
+            <div class="dreamCard col-md-4 col-xs-12 col-sm-6">
+            <article class="dream"  >
+                <figure class="dreamPhoto"  >
+                    <img src="source/media/images/museum.jpg" alt="Go Hiking" style="width: 100%;">
+                    <figcaption class="dreamActivity">
+                        <h1 class="dreamTitle">Visit Museum of Modern Art</h1>                        
+                        
+                        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-heart"></span> 870
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-comments"></span> 1.220
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-task"></span> 589
+                            </button>
+                          </div>
+                            <div class="btn-group text-right" role="group">
+                                <button type="button" class="text-right">
+                                    <span class="icon-out"></span>
+                                </button>
+                              </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+            </div>
+            
+            <div class="dreamCard col-md-4 col-xs-12 col-sm-6">
+            <article class="dream"  >
+                <figure class="dreamPhoto"  >
+                    <img src="source/media/images/zoo.jpeg" alt="Go Hiking" style="width: 100%;">
+                    <figcaption class="dreamActivity">
+                        <h1 class="dreamTitle">Visit the São Paulo's Zoo</h1>                        
+                        
+                        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-heart"></span> 481
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-comments"></span> 744
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-task"></span> 300
+                            </button>
+                          </div>
+                            <div class="btn-group text-right" role="group">
+                                <button type="button" class="text-right">
+                                    <span class="icon-out"></span>
+                                </button>
+                              </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+            </div>
+            
+            <div class="dreamCard col-md-4 col-xs-12 col-sm-6">
+            <article class="dream"  >
+                <figure class="dreamPhoto"  >
+                    <img src="source/media/images/travel.jpg" alt="Go Hiking" style="width: 100%;">
+                    <figcaption class="dreamActivity">
+                        <h1 class="dreamTitle">Travel to Canada</h1>                        
+                        
+                        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-heart"></span> 15.650
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-comments"></span> 9.132
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-task"></span> 5.330
+                            </button>
+                          </div>
+                            <div class="btn-group text-right" role="group">
+                                <button type="button" class="text-right">
+                                    <span class="icon-out"></span>
+                                </button>
+                              </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+            </div>
+            
+            <div class="dreamCard col-md-4 col-xs-12 col-sm-6">
+            <article class="dream"  >
+                <figure class="dreamPhoto"  >
+                    <img src="source/media/images/software.jpg" alt="Go Hiking" style="width: 100%;">
+                    <figcaption class="dreamActivity">
+                        <h1 class="dreamTitle">Get a Job in Software Dev</h1>                        
+                        
+                        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-heart"></span> 2.143
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-comments"></span> 2.000
+                            </button>
+                          </div>
+                          <div class="btn-group" role="group">
+                            <button type="button" class="text-left">
+                                <span class="icon-task"></span> 1.092
+                            </button>
+                          </div>
+                            <div class="btn-group text-right" role="group">
+                                <button type="button" class="text-right">
+                                    <span class="icon-out"></span>
+                                </button>
+                              </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </article>
+            </div>
+            
+            
+        </section>
+        
+        <aside id="recommended" class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1">
+                <h2>Top Dreamers</h2>
+                <ul class="list-group dreamers">
+                    <li class="list-group-item dreamer">
+                        <div class="media">
+                          <div class="media-left">
+                            <a href="#" style="width: 64px;">
+                              <img class="media-object dreamerPic" src="source/media/images/profile1.jpg" alt="John Doe" width="64">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading dreamerName">John Doe</h4>
+                            <p>
+                               <span class="dreamerDone">100 realized</span> - 
+                               <span class="dreamerDreams">243 dreams</span>
+                            </p>
+                            <div class="btn-group">
+                                <button type="button" class="followDreamer"><span class="icon-add"></span> follow</button>
+                                <button type="button" class="messageDreamer"><span class="icon-chat"></span> message</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item dreamer">
+                        <div class="media">
+                          <div class="media-left">
+                            <a href="#" style="width: 64px;">
+                              <img class="media-object dreamerPic" src="source/media/images/profile2.jpg" alt="John Doe" width="64">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading dreamerName">Angela Cook</h4>
+                            <p>
+                               <span class="dreamerDone">86 realized</span> - 
+                               <span class="dreamerDreams">421 dreams</span>
+                            </p>
+                            <div class="btn-group">
+                                <button type="button" class="followDreamer"><span class="icon-add"></span> follow</button>
+                                <button type="button" class="messageDreamer"><span class="icon-chat"></span> message</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </li><li class="list-group-item dreamer">
+                        <div class="media">
+                          <div class="media-left">
+                            <a href="#" style="width: 64px;">
+                              <img class="media-object dreamerPic" src="source/media/images/profile3.jpg" alt="John Doe" width="64">
+                            </a>
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading dreamerName">Adam Martin</h4>
+                            <p>
+                               <span class="dreamerDone">77 realized</span> - 
+                               <span class="dreamerDreams">278 dreams</span>
+                            </p>
+                            <div class="btn-group">
+                                <button type="button" class="followDreamer"><span class="icon-add"></span> follow</button>
+                                <button type="button" class="messageDreamer"><span class="icon-chat"></span> message</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </li>
+                </ul>
+            
+                <br>
+            
+                <h2>Learn More</h2>
+                <ul id="learnMore" class="list-group dreamers">
+                    <li class="list-group-item dreamer">
+                        <span class="icon-in"></span> supporting people
+                    </li>
+                    
+                    <li class="list-group-item dreamer">
+                        <span class="icon-users"></span> group activities
+                    </li>
+                    
+                    <li class="list-group-item dreamer">
+                        <span class="icon-anchor"></span> privacy policy
+                    </li>
+                    
+                    <li class="list-group-item dreamer">
+                        <span class="icon-exclamation"></span> about Dreamify
+                    </li>
+                </ul>
+        </aside>
+        
+        <footer class="col-xs-12 col-md-10 col-md-offset-1 text-center">
+            <h4 style="margin-bottom: 0px;"><img src="source/media/images/dreamify_brand_alt.png" alt="Dreamify"></h4>
+            <span style="padding-bottom: 8px;" class="text-muted">Never forget your dreams.</span>
+        </footer>
+        <!-- BOOTSTRAP 3.2.2 SCRIPT -->
+        <script src="source/bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>

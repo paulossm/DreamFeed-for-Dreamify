@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Roboto');
+
+html, body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px;
+}
+body {
+    font-family: sans-serif;
+    background-color: #F1F1E1;
+    overflow-x: hidden;
+}
+[class|=icon], .glyphicon {
+    margin-right: 6px !important;
+}
+#dreamifyLogo {
+    width: 140px;
+    height: 50px;
+    
+    padding: 0px;
+    margin-right: 15px;
+}
+header nav.navbar {
+    border: none;
+}
+header .navbar .navbar-header {
+    margin-left: -15px;
+    padding-left: 15px;
+    height: 50px;
+    background-color: #cc7588;
+}
+
+header .navbar a {
+    padding: 15px 25px;
+}
+
+#mainNavigation a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+#mainNavigation .active a, #mainNavigation a:hover {
+    color: #cc7588;
+    background-color: #F1F1E1;
+}
+
+#mainNavigation .active a {
+    font-weight: 700;
+}
+#dreamUser {
+    padding-bottom: 11px !important;
+}
+
+.dreamifySearch {
+    width: 100%;
+    background-color: transparent;
+    height: 34px;
+    padding: 3px 0px;
+    border-bottom: solid 1px #CCC;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 16px;
+}
+
+.filterSearch {
+    border: solid 1px #79BD9A;
+    color: #79BD9A;
+    width: 96%;
+    padding: 6px 2%;
+    background-color: transparent;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+#search, #newsFeed, #recommended, footer {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+button[type='submit'] {
+    color: #79BD9A;
+    background: none;
+    padding: 6px;
+    border: none;
+    font-size: 18px;
+}
+
+.displayFilters {
+    list-style: none;
+    margin-top: 6px;
+}
+.displayFilters .itemFilter {
+	display: inline;
+    margin-right: 10px;
+}
+.displayFilters .itemFilter a {
+	padding: 3px 6px;
+    color: #79bd9a;
+    font-size: 12px;
+    border: solid 1px #79bd9a;
+    border-radius: 12px;
+}
+
+header > .navbar {
+    margin-bottom: 0px;
+}
+.dreamCard {
+    margin-bottom: 30px;
+    height: auto;
+}
+.dream {
+    background-color: #79bd9a;
+    height: auto;
+}
+.dreamPhoto {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+.dreamPhoto > img {
+    height: 170px;
+}
+.dreamPhoto .dreamActivity {
+    padding: 6px 12px;
+}
+.dreamPhoto .dreamTitle {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #EEE;
+    margin: 6px 0px 12px;
+}
+.dreamPhoto .dreamActivity .btn-group button {
+    border: none;
+    color: #EEE;
+    background: none;
+    
+    font-size: 9pt;
+}
+.dreamPhoto .dreamActivity .btn-group button [class|=icon], .dreamPhoto .dreamActivity .btn-group button .glyphicon {
+    margin-right: 4px;
+}
+#recommended {
+    background-color: #f8f8f8;
+    padding-top: 15px;
+    
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+#recommended h2 {
+    margin-top: 0px;
+    font-size: 16px;
+    color: #cc7588;
+    text-transform: uppercase;
+}
+
+.dreamers {
+    list-style: none;
+    margin: 0px;
+}
+.dreamers .dreamer {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: #F1F1E1 !important;
+    background-color: transparent;
+}
+
+.dreamers .dreamer:last-child {
+    border-bottom: none;
+}
+
+img, .dream {
+	border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.dreamers  .dreamerName {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 3px;
+}
+.dreamers p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.dreamers .dreamerDone, .dreamers .dreamerDreams {
+    font-size: 12px;
+}
+.dreamers .dreamerDone {
+    color: #79bd9a;
+}
+
+.dreamers .followDreamer {
+    color: #79bd9a;
+    background: none;
+    border: solid 1px #79bd9a;
+    padding: 1px 4px;
+    border-radius: 4px;
+}
+.dreamers .messageDreamer {
+	background: none;
+    border: solid 1px #cc7588;
+    padding: 1px 4px;
+    border-radius: 4px;
+    color: #cc7588;
+}
+
+#learnMore > li {
+    opacity: 0.6;
+}
+#learnMore > li:hover, #learnMore > li:active {
+    opacity: 1;
+    color: #79bd9a;
+    cursor: pointer;
+}
+
+#dreamNotifications {
+    position: relative;
+}
+
+#dreamNotifications::after {
+    content: '21';
+    position: absolute;
+    top: 4px;
+    right: 15px;
+    background-color: #cc7588;
+    color: white;
+    padding: 2px 4px;
+    
+    font-size: 8pt;
+    border-radius: 46px;
+}
